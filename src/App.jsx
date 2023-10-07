@@ -95,7 +95,7 @@ function App() {
         .includes(string.toLowerCase());
     });
     if (filteredList.length === 0) {
-      alert("Sorry, No file found!\nWe will upload soon!");
+      alert("Sorry, No file found!\n We will be added files very soon, stay tuned!");
       return;
     }
     setFilteredList(filteredList);
